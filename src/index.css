@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #cecece;
+}
+
+.container {
+  width: 60%;
+  margin: 10% auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 40px;
+}
+
+.ListItems{
+  background-color: #fff;
+  color: #46529d;
+}
+
+.ListItems p {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.ListItems span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  height: 100%;
+}
+
+.ListItems .title {
+  background-color: #000;
+  color: #fff;
+  
+}
+
+.ListItems span.todo_item,
+form input.todo_item {
+  width: 50%;
+}
+
+.ListItems span.date,
+form input.date {
+  width: 30%;
+}
+
+.ListItems span.action,
+form input[type=submit] {
+  width: 20%;
+  background-color: #fff;
+  
+}
+
+.ListItems span.icon {
+  color: #f00;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px;
+  background-color: #ebebeb;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+form input[type=submit]{
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  cursor: pointer;
+}
